@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.key {
+  cursor: pointer;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #5703b7;
+  color: white;
+}
+
+.key:hover:enabled {
+  background: #6801df;
+}
+
+.keys {
+  padding: 20px 370px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  column-gap: 12px;
+  row-gap: 8px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+.char {
+  padding: 2px;
+  font-size: 45px;
+}
+
+.hide {
+  display: none;
+}
+
+.marked {
+  background-color: #a59bff;
+}
+
+#try {
+  background: #4f43ff;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 16px 40px;
+  border-radius: 15px;
+}

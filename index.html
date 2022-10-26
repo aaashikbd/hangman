@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="heading">Hangman Game</h2>
+      <div class="keys mt"></div>
+      <h3 class="mt" id="result"></h3>
+      <button class="hide mt" id="try"></button>
+      <h4 id="cat" class="mt">Category: <span id="cat-text"></span></h4>
+      <h4 id="hint" class="mt">Hint: <span id="hint-text"></span></h4>
+      <h4><span class="display mt"></span></h4>
+      <h4 class="mt" id="life">
+        You have <span id="life-counter"></span> Lives
+      </h4>
+    </div>
+    <script src="hangman.js"></script>
+  </body>
+</html>
